@@ -1,0 +1,14 @@
+*{
+    margin: 30px;
+    border: 30px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: red;
+}
+
+button{
+    padding: 30px;
+}
