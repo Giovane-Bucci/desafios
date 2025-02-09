@@ -1,0 +1,31 @@
+*{
+   
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+    
+    color: blue;
+    margin: 80px 0px 0px 80px;
+    font-size: 25px;
+}
+
+form{
+    
+    margin: 20px 0px 0px 80px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px;
+
+}
