@@ -1,31 +1,37 @@
 *{
    
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0px; /*Remove as margens paradrão de todos os elementos */
+    padding: 0px; /* Remove o preenchimento padrão de todos os elementos*/
+    font-family: 'Courier New', Courier, monospace; /* Define uma fonte para toda a página*/
 
 }
 
 h1{
     
-    color: blue;
-    margin: 80px 0px 0px 80px;
-    font-size: 25px;
+    color: blue;/*Define a cor do texto como azul*/
+    margin: 80px 0px 0px 80px;/* ajusta a posição do título*/
+    font-size: 25px;/*Define o tamanho da fonte */
 }
 
 form{
     
-    margin: 20px 0px 0px 80px;
+    margin: 20px 0px 0px 80px; /*Ajusta o posicionmaneot do formulário */
 }
 
 button{
-    color: white;
-    background-color: black;
-    padding: 8px;
-    border-radius: 5px;
+    color: white; /* Define a cor do texto do botão como branco */
+    background-color: black; /* Define a cor do fundo do botão como preto */
+    padding: 8px; /* Adiciona espaço interno ao botão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
 }
 
 input{
-    padding: 10px;
+    padding: 10px; /* Adiciona espaço interno ao campo de entrada */
 
+}
+
+p{
+    margin: 30px; /*Adiciona espalamento ao redor do parágrafo*/
+    font-size: 30px; /* Define o tamanho do texto dentro do parágrafo*/
+    color: blue; /*Define a cor do texto comoa zul */
 }
