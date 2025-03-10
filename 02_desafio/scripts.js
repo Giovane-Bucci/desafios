@@ -2,7 +2,7 @@ var form = document.getElementById('forms');
 var campo = document.getElementById('nome');
 
 form.addEventListener('submit', function(e) {
-    alert('Olá, ' + campo.value + '. Espero que esteja bem!' );
+    this.innerHTML('Olá, ' + campo.value + '. Espero que esteja bem!' );
     e.preventDefault();
 });
 
